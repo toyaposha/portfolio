@@ -608,9 +608,11 @@
   .faq{
     margin-bottom: 100px;
     margin-top: 100px;
+    position: relative;
     &_wrapper{
       display: flex;
     justify-content: center;
+    position: relative;
     }
      &-left{
       width: 40%;
@@ -640,10 +642,8 @@
       flex-direction: column;
       gap: 40px;
       width: 60%;
-      
       font-family: 'Manrope';
-     
-      
+      z-index: 999;
       .mini-quetion-container{
         background-color: var(--blue-color);
         color: white;
@@ -866,11 +866,11 @@
   }
   .aboutme{
     
-    
       &-wrapper{
         display: flex;
         flex-direction: row;
         padding:0 0 10px 0;
+        position: relative;
         .left-container{
         
           .left-img{
@@ -908,6 +908,8 @@
             h4{
               color: white;
               font-size: 25px;
+              position: relative;
+
               span{
                 color: #2CCCC8;
               }
@@ -929,6 +931,9 @@
           }
           h4{
             color: #2CCCC8;
+            position: relative;
+            font-size: 20px;
+            z-index: 999;
           }
          
         }
@@ -1023,7 +1028,6 @@
   
   
   body::before, body::after {
-    position: fixed;
     top: 50%;
     left: 50%;
     width: 3em;
