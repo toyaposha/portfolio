@@ -29,7 +29,7 @@ const AboutMe = () => {
               <p>I am 28 years old. My specialty, which I graduated from at the university international relations.  I lived in Japan for one year. there I studied and worked part-time. Having arrived in Kazakhstan, I decided to study IT. and the choice fell on front-end, after trying it I liked it. If I’m a novice specialist, don’t count me out right away. I'm still learning...and I'm not going to give up!</p>
               <h4><Link to='/more'>More About Me  <GoArrowRight className='Icon-arrow' /></Link></h4>
               
-              <button className="btn btn--primary"><a href="https://vk.com/doc91474289_672157662?hash=LozjgcHKOVlXVGSm4Rc1SPcA7OLTHv2O5FnNwO9FOiX&dl=Aryj9XZYIDV4vEYWwu3z8UJUKwgSWhT1syuatdmkmKH">Resume</a>
+              <button className="btn btn--primary"><a href="https://vk.com/doc91474289_672183075?hash=wWvDctZm2SHJOom6MZLYhMAZJNaZF2Zjs7VhMhDvSLo&dl=FQOKS3iI9C2IdR3fQ2ugzt0mRoJ6A4ovbNsqBxfCOOD">Resume</a>
        <FaArrowAltCircleDown className='Icon-arrow' /></button>
        
              </div>

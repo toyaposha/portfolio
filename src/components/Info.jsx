@@ -27,7 +27,7 @@ const Info = () => {
                     <div><a href="https://www.linkedin.com/in/altybayeva-tomiris-11202b2b0/">My Linkedin <FaLinkedin  className='icon-footer-buttons'/>
                 </a></div>
                     
-                <div>   <a href="https://vk.com/doc91474289_672157662?hash=LozjgcHKOVlXVGSm4Rc1SPcA7OLTHv2O5FnNwO9FOiX&dl=Aryj9XZYIDV4vEYWwu3z8UJUKwgSWhT1syuatdmkmKH">Downloand my resume <FaCloudDownloadAlt  className='icon-footer-buttons' />
+                <div>   <a href="https://vk.com/doc91474289_672183075?hash=wWvDctZm2SHJOom6MZLYhMAZJNaZF2Zjs7VhMhDvSLo&dl=FQOKS3iI9C2IdR3fQ2ugzt0mRoJ6A4ovbNsqBxfCOOD">Downloand my resume <FaCloudDownloadAlt  className='icon-footer-buttons' />
             </a></div> 
                   
                     
