@@ -3,6 +3,12 @@ import avat from '../img/avat-2.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import SportsGymnasticsRoundedIcon from '@mui/icons-material/SportsGymnasticsRounded';
+import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
+import LightbulbRoundedIcon from '@mui/icons-material/LightbulbRounded';
+import SpeedRoundedIcon from '@mui/icons-material/SpeedRounded';
+import PsychoonlogyRoundedIc from '@mui/icons-material/PsychologyRounded';
+import PersonRemoveRoundedIcon from '@mui/icons-material/PersonRemoveRounded';
 
 const Reviews = () => {
     
@@ -25,51 +31,57 @@ const Reviews = () => {
                 <Slider {...settings}>
                 <div className="reviews-slide-item  swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                        <PsychoonlogyRoundedIc  style={{ fontSize: 100, color:'#168798'}} className="reviews-slide-item-image" />
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">I would describe myself as a disciplined person with an analytical mind and organizational qualities. I've always been able to find a common language with different people. </p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <p className="txt">I am a disciplined individual with a strong analytical mind and excellent organizational skills. I am adept at meeting deadlines and thrive on finding effective solutions to challenges. </p>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 <div className="reviews-slide-item swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                    <LightbulbRoundedIcon style={{ fontSize: 100, color:'#168798'}}  className="reviews-slide-item-image"/>
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">My strengths are the ability to think creatively and developed communication skills. Also, I always strive to win. And another important quality, as I think, is flexibility, I know how to adapt to any conditions, adapt to different circumstances. These skills seem to me necessary for the job. </p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <p className="txt">My strengths lie in my ability to think and act creatively, complemented by well-developed communication skills. I excel in being flexible and adapting to various circumstances. </p>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 <div className="reviews-slide-item swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                        <SpeedRoundedIcon style={{ fontSize: 100, color:'#168798'}}  className="reviews-slide-item-image"/>
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">I consider perfectionism to be my weak side. Sometimes when working on a large project, I pay too much attention to the little things. But I understand that it is not always possible and necessary to do your job perfectly.</p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <p className="txt">While I may have limited experience in IT, I am a fast learner, particularly when I am enthusiastic about the job. Mastering my IT skills will bring me only positive perspectives.</p>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 <div className="reviews-slide-item swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                        <LanguageRoundedIcon style={{ fontSize: 100, color:'#168798'}}  className="reviews-slide-item-image" />
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">Although I have no former experience in IT, I’m a fast learner and adapt quickly to new situations, especially when I’m enthusiastic about something. </p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <p className="txt">I am fluent in Kazakh and Russian as native languages. Additionally, I have an intermediate level (B1) in English, upper-intermediate proficiency in Japanese, and elementary level in Korean. </p>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 <div className="reviews-slide-item swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                    <SportsGymnasticsRoundedIcon style={{ fontSize: 100, color:'#168798'}}  className="reviews-slide-item-image"/>
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">Languages ​​that I know: native Kazakh, Russian. English level is intermediate, I understand well then I speak. I lived  in Japan one Year for studiend. I speak fluently and write well. </p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <p className="txt">I am passionate about dancing and singing, hobbies that not only help me relax but also inspire me with new ideas. They have been a source of inspiration throughout my life. </p>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 <div className="reviews-slide-item swiper-slide">
                     <div className="reviews-slide-item-inner">
-                        <img src={avat} alt="" className="reviews-slide-item-image"/>
+                    <PersonRemoveRoundedIcon style={{ fontSize: 100, color:'#168798'}}  className="reviews-slide-item-image"/>
+                        {/* <img src={avat} alt="" className="reviews-slide-item-image"/> */}
                         <div className="reviews-slide-item-info">
-                            <p className="txt">My hobbies are dancing and singing. I have been dancing since birth. I started singing recently, and you know, it’s turning out pretty well. I also sometimes like to dub anime with my voice
+                            <p className="txt">Although it's a common answer, my weakness is perfectionism. As a Web Developer, particularly in Front-End development, attention to detail is crucial. I tend to be meticulous in identifying and correcting mistakes and errors. However, I've learned that finding the right balance is essential for delivering satisfactory results without becoming overly frustrated.
 </p>
-                            <span className="name">Tomiris</span><span className="stage">Front-end</span></div>
+                            <span className="name">Tomiris</span><span className="stage">Front-End Developer</span></div>
                     </div>
                 </div>
                 </Slider>

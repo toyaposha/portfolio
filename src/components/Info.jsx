@@ -8,11 +8,18 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
+import jsPDF from 'jspdf';
+import Logo from '../img/Resume.png'
 
 
 
 const Info = () => {
-    
+    const pdfGenerate =()=>{
+        let doc = new jsPDF('landscape','px','a4','false');
+        doc.addImage(Logo,'PNG',140,1,350,450);
+        doc.text(100,410,'');
+        doc.save('Resume.pdf')
+       }
   return (
     
     <div className="info">
@@ -27,8 +34,8 @@ const Info = () => {
                     <div><a href="https://www.linkedin.com/in/altybayeva-tomiris-11202b2b0/">My Linkedin <FaLinkedin  className='icon-footer-buttons'/>
                 </a></div>
                     
-                <div>   <a href="https://vk.com/doc91474289_672183075?hash=wWvDctZm2SHJOom6MZLYhMAZJNaZF2Zjs7VhMhDvSLo&dl=FQOKS3iI9C2IdR3fQ2ugzt0mRoJ6A4ovbNsqBxfCOOD">Downloand my resume <FaCloudDownloadAlt  className='icon-footer-buttons' />
-            </a></div> 
+                <div > <a onClick={pdfGenerate}>Downloand my resume <FaCloudDownloadAlt  className='icon-footer-buttons' /></a> 
+           </div> 
                   
                     
                 </div> 

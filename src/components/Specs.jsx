@@ -12,7 +12,7 @@ const Specs = () => {
   return (
     <div className="technologies"> 
     <div className="container">
-    <h2 className="h2">Skills&Experience</h2> 
+    <h2 className="h2">Skills & Experience</h2> 
         <div className="technologies-wrapper">
             
             <div className="technologies-left"> 
@@ -52,17 +52,19 @@ const Specs = () => {
                 <div className="specialize-list-item">  
                      <h3>1</h3> 
                     <h3>React/Next.js</h3> 
-                    <p>I wrote several projects, used the hooks useState, useEffect, useStateContext,Redux.</p> 
+                    <p>In my projects, I have utilized hooks such as useState, useEffect, useStateContext, and Redux for state management.</p> 
                  </div>                                 
               <div className="specialize-list-item">  
                  <h3>2</h3> 
                 <h3>Node.js</h3> 
-                <p>A small project, written on the Express framework. validation for authorizations and registration.</p> 
+                <p>I have worked on projects built on the Express Framework, where I implemented authorization and registration validation.
+                </p> 
              </div>               
                 <div className="specialize-list-item"> 
                     <h3>3</h3> 
                     <h3>MongoDb</h3> 
-                    <p>MongoDB has little experience, only used in one project.</p> 
+                    <p>
+                      My experience with MongoDB has been instrumental in complementing my project work.</p> 
                      </div>               
                  
                </div>       

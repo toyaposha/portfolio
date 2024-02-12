@@ -4,16 +4,17 @@ import './index.scss';
 import {   Routes, Route,Link  } from 'react-router-dom';
 
 
+
 function App() {
  
   return (
-    <div className="App"> 
+    <> 
   
     <div className='header'>
     <Header/>
     </div>
  
-    <div className='routes'>
+    <div>
    
     <Routes>
       
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/more' element={ <Reviews/>}/>
                 <Route path='/faq' element={<FAQ/>}/>
                 <Route path='/contact' element={<Info/>}/>
+                
     </Routes>
     </div>
      <div className='footer'>
@@ -33,7 +35,7 @@ function App() {
     
     
   
-    </div>
+    </>
   )
 }
 

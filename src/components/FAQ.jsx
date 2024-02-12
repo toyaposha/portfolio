@@ -29,7 +29,7 @@ const FAQ = () => {
           Why did you choose Front-end?
         </AccordionSummary>
         <AccordionDetails className='accordion-content'>      
-I tried to learn Python and Java. But I didn't like it. And when I tried JavaScript, I realized that it was for me.
+        Before embarking on my creative journey in IT, I attempted to learn Python and Java. However, our paths didn't align as I didn't feel comfortable with them. It was when JavaScript caught my attention that I knew it was the right fit for me.
         </AccordionDetails>
       </Accordion>
       <Accordion className="mini-quetion-container">
@@ -42,7 +42,7 @@ I tried to learn Python and Java. But I didn't like it. And when I tried JavaScr
           React or Next.js?
         </AccordionSummary>
         <AccordionDetails className='accordion-content' >
-        I prefer React. I guess I'm just used to writing on it.
+        I am accustomed to writing in React, so it's my preferred framework.
         </AccordionDetails>
       </Accordion>
       <Accordion  className="mini-quetion-container">
@@ -55,7 +55,7 @@ I tried to learn Python and Java. But I didn't like it. And when I tried JavaScr
           In the portfolio why did you use Sanity?
         </AccordionSummary>
         <AccordionDetails className='accordion-content'>
-        It is very convenient, especially if you have an online store. We don't waste time writing backend. And it's easy to connect to frontend
+        It's a convenient approach, particularly for online stores, as it saves time and is easy to integrate with the Front-End.
         </AccordionDetails>
     
       </Accordion>
@@ -66,13 +66,15 @@ I tried to learn Python and Java. But I didn't like it. And when I tried JavaScr
           id="panel3-header"
           className='accordion-head'
         >
-          Place for new question
+          How do you see your future?
+
         </AccordionSummary>
         <AccordionDetails className='accordion-content'>
-        Empty
+        I aspire to master Front-End development and then acquire additional skills to further my passion for IT. In the future, I envision myself as a confident expert capable of bringing creativity and innovative solutions to the field of IT.
         </AccordionDetails>
     
       </Accordion>
+      
             </div>
             </div>
     
